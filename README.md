@@ -1,13 +1,24 @@
+<p align="center">
+  <a href="https://youtu.be/fibIiCN5sKY">
+    <img src="https://i.ytimg.com/vi/fibIiCN5sKY/maxresdefault.jpg" alt="Watch the 15-second GitJokBo promotional video on YouTube" width="960">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/fibIiCN5sKY"><strong>▶ Watch GitJokBo in 15 seconds — sound on</strong></a><br>
+  <sub>Earlier promotional footage. The interface may change before release.</sub>
+</p>
+
 <h1 align="center">GitJokBo</h1>
 
 <p align="center">
-  <strong>Every commit has a story. See how yours connects.</strong><br>
+  <strong>Your code has history. Make it easier to follow.</strong><br>
   A free, native Git client for Windows, with a living view of your repository's history.
 </p>
 
 <p align="center">
   <strong>Jokbo</strong> is Korean for <strong>family genealogy</strong>.<br>
-  <sub>Your branches have ancestors, too.</sub>
+  <sub>For everyone who has ever asked, “Which branch was that on?”</sub>
 </p>
 
 <p align="center">
@@ -30,13 +41,13 @@
 
 **Coming soon.** The first public build has not been published yet. Downloads and release notes will appear on the [Releases page](https://github.com/YiMunDong/GitJokBo-Release/releases). The features below introduce the app currently in development.
 
-## Follow the branches. Understand the work.
+## There was a reason for that branch. Probably.
 
-A feature branches off. A fix lands. Two lines of work meet again.
+The feature is on one branch. The fix is on another. The commit called `final fix` has three successors.
 
-GitJokBo brings that history into view with an animated lineage display built around your repository's actual commit relationships. Explore the graph, inspect a change, and carry on with your Git work in the same application.
+GitJokBo helps you follow the story with an animated lineage view built around your repository's actual commit relationships. See where work branches off, where it comes together, and what changed along the way.
 
-Review diffs, stage changes, create commits, and work with branches and remotes. GitJokBo runs the Git for Windows you already use, with your existing Git credential helper and SSH configuration.
+Review a diff, stage your changes, and make the next commit in the same workspace. GitJokBo runs the Git for Windows you already use, with your existing Git credential helper and SSH configuration.
 
 ## Why GitJokBo?
 
@@ -50,19 +61,23 @@ Review diffs, stage changes, create commits, and work with branches and remotes.
 | **Work through conflicts** | Review conflicting changes, mark resolutions, and use an external merge tool when you need one. |
 | **Make the workspace your own** | Choose Cyber Joseon or a built-in theme, switch between light and dark modes, and select your interface language. |
 
-## One working tree. A clearer set of commits.
+## “Fix stuff” deserves a second draft.
 
-The bug fix, the cleanup, and the documentation update all ended up in the same working tree. They do not have to end up in the same commit.
+You fixed the bug, cleaned up a function, and corrected the README while you were there. Now one working tree contains three perfectly reasonable commits.
 
-The **visual commit composer** lets you organize pending changes before creating history:
+The **visual commit composer** gives each change a place before you create the history:
 
 1. **Choose the changes.** Review file and hunk cards from your working tree.
 2. **Build the sequence.** Assign cards to commit slots and give each commit its own message.
 3. **Review and run.** Check the planned commits, then create them in order. Leave unrelated changes for later.
 
+Give the next person reading your history a fighting chance. There is a good chance it will be you.
+
 ## A little Joseon. A little science fiction.
 
 **Cyber Joseon** gives GitJokBo its own visual identity, combining Korean traditional motifs with illuminated paths and animated details that respond to repository state.
+
+Your repository is allowed to have better lighting than your office.
 
 Prefer a different look? Choose a built-in theme and a light, dark, or system appearance. Reduced-motion and high-contrast options help adapt the presentation to your needs.
 
@@ -124,7 +139,9 @@ Close GitJokBo and delete the extracted application folder. Settings and other l
 
 ## Help shape GitJokBo
 
-Found a bug or have an idea? [Open an issue](https://github.com/YiMunDong/GitJokBo-Release/issues). For bug reports, include your GitJokBo version, Windows version, Git version, and the steps needed to reproduce the problem. Remove credentials and private repository content from any screenshots or logs you share.
+Found something odd? Have a workflow that could use fewer clicks? [Open an issue](https://github.com/YiMunDong/GitJokBo-Release/issues).
+
+For bug reports, include your GitJokBo version, Windows version, Git version, and the steps needed to reproduce the problem. A small reproducible example is especially welcome. Remove credentials and private repository content from any screenshots or logs you share.
 
 This repository is the home for GitJokBo downloads, release notes, and feedback.
 
