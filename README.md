@@ -28,7 +28,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/YiMunDong/GitJokBo-Release/releases"><strong>Releases</strong></a>
+  <a href="https://github.com/YiMunDong/GitJokBo-Release/releases/download/v0.9.0-preview.1/GitJokBo-0.9.0-preview.1-win-x64.zip"><strong>Download Preview for Windows →</strong></a>
   &nbsp; · &nbsp;
   <a href="#screenshots">Explore the screenshots</a>
   &nbsp; · &nbsp;
@@ -41,7 +41,9 @@
 
 ---
 
-**Coming soon.** The first public build has not been published yet. Downloads and release notes will appear on the [Releases page](https://github.com/YiMunDong/GitJokBo-Release/releases). The features below introduce the app currently in development.
+**Available now: GitJokBo 0.9.0 Preview 1** · Windows x64 · 5.38 MiB · [Download ZIP](https://github.com/YiMunDong/GitJokBo-Release/releases/download/v0.9.0-preview.1/GitJokBo-0.9.0-preview.1-win-x64.zip) · [Release notes](https://github.com/YiMunDong/GitJokBo-Release/releases/tag/v0.9.0-preview.1)
+
+This is a **pre-release for testing and feedback**. The executable is unsigned. Git for Windows and the Microsoft Visual C++ x64 runtime are required separately; see [Get started](#get-started). Keep a backup of important work when trying the preview.
 
 ## There was a reason for that branch. Probably.
 
@@ -83,7 +85,7 @@ Review a diff, stage your changes, and make the next commit in the same workspac
 
 These are **actual GitJokBo app captures with the interface set to English**, taken on October 27, 2026. They use **Dalbit**, a fictional notes project with a real local Git history prepared for this showcase. Names, commits, branches, and source snippets are demonstration data.
 
-The screenshots show a development build, not a published release. Features and appearance may change before the first public build. [Capture notes](assets/screenshots/README.md).
+The screenshots were taken from a development build before Preview 1 was packaged. The preview adds a test-build banner and a release-page link; some details may differ. [Capture notes](assets/screenshots/README.md).
 
 ### Review the change, then decide what belongs in the commit
 
@@ -197,14 +199,30 @@ Settings offers theme and brightness choices, while the app responds to Windows 
 | Git | [Git for Windows](https://gitforwindows.org/) 2.35 or later, installed separately. |
 | Runtime | [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist), x64, v14. |
 
-### When the first build is available
+### Download and run Preview 1
 
-1. Open the [Releases page](https://github.com/YiMunDong/GitJokBo-Release/releases), read the release notes, and download the packaged ZIP from **Assets**.
+1. **[Download GitJokBo 0.9.0 Preview 1 for Windows x64](https://github.com/YiMunDong/GitJokBo-Release/releases/download/v0.9.0-preview.1/GitJokBo-0.9.0-preview.1-win-x64.zip)**, or open the [release page](https://github.com/YiMunDong/GitJokBo-Release/releases/tag/v0.9.0-preview.1) and choose `GitJokBo-0.9.0-preview.1-win-x64.zip` under **Assets**.
 2. Extract the complete archive to a folder of your choice.
-3. Keep the `Languages` folder and the included license and notice files with `GitJokBo.exe`.
+3. Keep the `Languages` folder next to `GitJokBo.exe` and run the extracted executable.
 4. Run `GitJokBo.exe`, choose your language and appearance, and open a Git repository. If Git is not detected, set the path to `git.exe` in Settings.
 
 There is no installer. Git and the Visual C++ runtime are separate prerequisites. GitHub's automatically generated **Source code** archives contain this release repository, not the application.
+
+The ZIP contains only the application and its language folder:
+
+```text
+GitJokBo-0.9.0-preview.1-win-x64/
+├── GitJokBo.exe
+└── Languages/
+    ├── en.properties
+    ├── ja.properties
+    ├── ko.properties
+    ├── ko-x-haoche.properties
+    ├── zh-Hans.properties
+    └── README.txt
+```
+
+The license and component notices are embedded in the executable. Open **About → License / App notices / Third-party notices** to read them. The [license agreement](License.md) is also available in this repository. A SHA-256 checksum for the ZIP is included in the [release notes](https://github.com/YiMunDong/GitJokBo-Release/releases/tag/v0.9.0-preview.1).
 
 ### Your first few minutes
 
@@ -248,7 +266,7 @@ No. GitJokBo works with local Git repositories and their configured remotes. Rem
 <details>
 <summary><strong>Where is the download?</strong></summary>
 
-The first public build has not been published yet. When it is ready, the packaged ZIP and release notes will appear under [Releases](https://github.com/YiMunDong/GitJokBo-Release/releases). The screenshots show work in development and are not a release announcement.
+[Download the Preview 1 ZIP for Windows x64](https://github.com/YiMunDong/GitJokBo-Release/releases/download/v0.9.0-preview.1/GitJokBo-0.9.0-preview.1-win-x64.zip). You can also find it under **Assets** on the [release page](https://github.com/YiMunDong/GitJokBo-Release/releases/tag/v0.9.0-preview.1). Extract the archive before running the app, and keep the `Languages` folder beside the executable.
 
 </details>
 
@@ -287,6 +305,8 @@ Found something odd? Have a workflow that could use fewer clicks? [Open an issue
 For bug reports, include your GitJokBo version, Windows version, Git version, and the steps needed to reproduce the problem. A small reproducible example is especially welcome. Remove credentials and private repository content from any screenshots or logs you share.
 
 This repository is the home for GitJokBo downloads, release notes, and feedback.
+
+Replies to feedback and bug reports may take some time. Thank you for your patience and understanding.
 
 Looking for a home for your terminals, too? [MREShell](https://github.com/YiMunDong/MREShell-Release) is another Windows app by the same developer, built around terminal workspaces, reusable commands, and runbooks.
 
