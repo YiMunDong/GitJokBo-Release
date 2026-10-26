@@ -2,7 +2,7 @@
 
 These images are actual GitJokBo application-window captures, taken on October 27, 2026, with the display language set to English.
 
-They show a development build before the first public release. They are not interface mockups or evidence that a particular release is available.
+They show a development build captured before Preview 1 was packaged. Preview 1 adds a test-build banner and a release-page link. They are actual app captures; see the [release notes](https://github.com/YiMunDong/GitJokBo-Release/releases/tag/v0.9.0-preview.1) for the published build.
 
 ## Demonstration project
 
